@@ -1,9 +1,9 @@
 public class Player {
     private String name;
-    private int[] results;
+    private int[] dieResults;
 
     public Player(String name) {
-        this.results = new int[] { 0, 0, 0, 0, 0, 0 };
+        this.dieResults = new int[] { 0, 0, 0, 0, 0, 0 };
         this.name = name;
     }
 

@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
 public class TestSixNumbers {
-    public static void main(String[] args) {
-        String playerName;
 
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Before we start. What is your name?: ");
-        playerName = scan.nextLine();
+        String playerName = scan.nextLine();
 
         Player player1 = new Player(playerName);
 
