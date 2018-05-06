@@ -1,14 +1,13 @@
 import java.util.Random;
 
 public class Die {
-    private int faceValue;
-    private final int MAX = 6;
-    private final int MIN = 1;
-    Random random = new Random();
+    private static final int MAX = 6;
+    private static final int MIN = 1;
 
     public Die() {};
 
-    public int roll() {
+    public static int possibleResult() {
+        Random random = new Random();
         return random.nextInt(MAX) + MIN;
     }
 }
